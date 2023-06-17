@@ -1,0 +1,70 @@
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 1rem !important;
+  }
+
+  #header {
+    display: none;
+  }
+
+  #phone-header {
+    display: block !important;
+  }
+
+  #phone-header img {
+    width: 70% !important;
+  }
+
+  #First {
+    padding: 1rem 0 7rem 0;
+  }
+
+  .second {
+    margin-top: 6rem;
+  }
+
+  .p-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .p-first i {
+    float: right;
+    color: #FFF;
+    font-size: 24px;
+  }
+
+  .second-t {
+    width: 100% !important;
+  }
+  .second-t h1 {
+    font-size: 40px !important;
+  }
+
+  .svgs {
+    width: 100% !important;
+  }
+
+  .custom-height {
+    opacity: 0;
+  }
+
+  .t-top .bot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .t-top .bot a {
+    margin-top: 20px;
+  }
+
+  .t-bottom .t-box {
+    margin-bottom: 20px;
+  }
+  .t-bottom .t-box span {
+    margin-bottom: 40px !important;
+  }
+  .t-bottom .view-btn::after {
+    width: 20% !important;
+  }
+}
